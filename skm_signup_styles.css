@@ -213,14 +213,14 @@ input {
 		width: 75%;
 	}
 
-	input [type=radio] {
+	input [type="radio"] {
 		-webkit-appearance: radio;
 		-moz-appearance: radio;
 		appearance: radio;
 		box-sizing: border-box;
 	}
 
-	input [type=checkbox] {
+	input [type="checkbox"] {
 		-webkit-appearance: checkbox;
 		-moz-appearance: checkbox;
 		appearance: checkbox;
