@@ -184,18 +184,119 @@ input {
 	clear: both;
 }
 
+.menu-button {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border: none;
+	padding: 20px;
+	margin: 0;
+}
+
 .logo-column {
 	margin: 0 auto;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 212px;
+	flex: 0 0 212px;
 }
 
 .logo {
-	position: relative;
 	width: 100%;
-	display: block;
-	float: left;
+	display: inline-block;
 	z-index: 500;
+	text-align: left;
+}
+
+.nav-menu {
+	content: "";
+    background-color: #d21d1d;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    opacity: .95;
+    z-index: 600;
+    visibility: hidden;
+    transition: visibility .35s, width .7s;
+    overflow: hidden;
+}
+
+.nav-menu.open {
+	visibility: visible;
+	width: 100%;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: #be0909;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.close-button:after, .close-button:before {
+	content: "";
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	background: #fff;
+	height: 2px;
+	border-radius: 1px;
+	width: 40%;
+	margin-top: -1px;
+}
+
+.close-button:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close-button:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.menu-content {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.menu-section-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 72px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flex-1 {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
 }
 
 @media screen and (min-width: 700px) {
