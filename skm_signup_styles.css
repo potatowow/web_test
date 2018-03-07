@@ -48,31 +48,11 @@ span {
 	font-size: 14px;
 }
 
-/*input {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-}*/
-
-input [type=submit] {
+input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 }
-
-input [type=radio] {
-	-webkit-appearance: radio;
-	-moz-appearance: radio;
-	appearance: radio;
-	box-sizing: border-box;
-}
-
-/*input [type="checkbox"] {
-	-webkit-appearance: checkbox;
-	-moz-appearance: checkbox;
-	appearance: checkbox;
-	box-sizing: border-box;
-}*/
 
 .signin_form {
 	position: relative;
@@ -231,6 +211,20 @@ input [type=radio] {
 	.input_form {
 		float: left;
 		width: 75%;
+	}
+
+	input [type=radio] {
+		-webkit-appearance: radio;
+		-moz-appearance: radio;
+		appearance: radio;
+		box-sizing: border-box;
+	}
+
+	input [type="checkbox"] {
+		-webkit-appearance: checkbox;
+		-moz-appearance: checkbox;
+		appearance: checkbox;
+		box-sizing: border-box;
 	}
 
 }
