@@ -48,7 +48,7 @@ span {
 	font-size: 14px;
 }
 
-input [type="submit"] {
+input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
