@@ -45,6 +45,16 @@ input {
 	appearance: none;
 }
 
+input [type="radio"] {
+	-webkit-appearance: radio;
+	box-sizing: border-box;
+}
+
+input [type="checkbox"] {
+	-webkit-appearance: checkbox;
+	box-sizing: border-box;
+}
+
 .signin_form {
 	position: relative;
 	margin: 0 auto;
@@ -178,7 +188,7 @@ input {
 	text-align: center;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) {
 	.signin_form {
 		width: 70%;
 	}
@@ -195,7 +205,7 @@ input {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 	.signin_form {
 		width: 60%;
 	}
