@@ -39,6 +39,12 @@ span {
 	font-size: 14px;
 }
 
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
 .signin_form {
 	position: relative;
 	margin: 0 auto;
