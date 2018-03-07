@@ -54,18 +54,18 @@ input {
 	appearance: none;
 }
 
-/*input [type=submit] {
+input [type=submit] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-}*/
+}
 
-/*input [type=radio] {
+input [type=radio] {
 	-webkit-appearance: radio;
 	-moz-appearance: radio;
 	appearance: radio;
 	box-sizing: border-box;
-}*/
+}
 
 /*input [type="checkbox"] {
 	-webkit-appearance: checkbox;
