@@ -220,7 +220,7 @@ input {
 		box-sizing: border-box;
 	}
 
-	input [type="checkbox"] {
+	input [type=checkbox] {
 		-webkit-appearance: checkbox;
 		-moz-appearance: checkbox;
 		appearance: checkbox;
