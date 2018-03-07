@@ -221,7 +221,7 @@ input {
     z-index: 600;
     visibility: hidden;
     transition: visibility .35s, width .7s;
-    overflow: hidden;
+    overflow-y: scroll; 
 }
 
 .nav-menu.open {
@@ -285,6 +285,50 @@ input {
     padding-left: 60px;
     box-sizing: border-box;
     color: #FFFFFF;
+}
+
+.menu-section {
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+.menu-section-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-groups-wrapper {
+    position: relative;
+    padding-left: 30px;
+}
+
+.menu-groups {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-group {
+    line-height: 52px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    border-left: 1px solid #a40035;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.skm-home-page {
+    display: inline-block;
+    line-height: 72px;
+    width: 100%;
+    text-align: center;
 }
 
 .flex {
