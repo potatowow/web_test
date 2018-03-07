@@ -192,7 +192,7 @@ input [type="checkbox"] {
 	text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
 	.signin_form {
 		width: 70%;
 	}
@@ -209,7 +209,7 @@ input [type="checkbox"] {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 	.signin_form {
 		width: 60%;
 	}
