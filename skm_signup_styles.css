@@ -19,7 +19,7 @@ body {
 
 nav {
 	width: 100%;
-	height: 68px;
+	height: 50px;
 	position: fixed;
 	border-bottom: #cad1dd 1px solid;
 	z-index: 3;
@@ -77,7 +77,7 @@ input:-ms-input-placeholder { color:#8c8c8c;}
 .form_body {
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .form_block {
@@ -193,14 +193,14 @@ input:-ms-input-placeholder { color:#8c8c8c;}
 	width: 48px;
 	height: 48px;
 	border: none;
-	padding: 20px;
+	padding: 15px;
 	margin: 0;
 }
 
 .logo-column {
 	margin: 0 auto;
 	text-align: center;
-	padding: 20px;
+	padding: 15px;
 	-webkit-box-flex: 0;
     -ms-flex: 0 0 212px;
 	flex: 0 0 212px;
