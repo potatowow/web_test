@@ -48,10 +48,13 @@ span {
 	font-size: 14px;
 }
 
-input {
+input [type=submit] {
 	-webkit-appearance: none;
-	/*-moz-appearance: none;
-	appearance: none;*/
+}
+
+input [type="submit"] {
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .signin_form {
