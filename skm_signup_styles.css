@@ -54,6 +54,11 @@ input [type=button], [type="button"] {
 	appearance: none;
 }
 
+input::-webkit-input-placeholder { color:#8c8c8c;}
+input:-moz-placeholder { color:#8c8c8c;}
+input::-moz-placeholder { color:#8c8c8c;}
+input:-ms-input-placeholder { color:#8c8c8c;}
+
 .signin_form {
 	position: relative;
 	margin: 0 auto;
