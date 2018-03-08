@@ -77,7 +77,7 @@ input:-ms-input-placeholder { color:#8c8c8c;}
 .form_body {
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 .form_block {
@@ -354,6 +354,10 @@ input:-ms-input-placeholder { color:#8c8c8c;}
 
 	.signin_form h3 {
 		font-size: 24px;
+	}
+
+	.form_body {
+		margin-top: 40px;
 	}
 
 	.input_title {
