@@ -50,8 +50,8 @@ span {
 
 input {
 	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+	/*-moz-appearance: none;
+	appearance: none;*/
 }
 
 .signin_form {
