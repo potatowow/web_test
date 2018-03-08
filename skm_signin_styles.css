@@ -20,7 +20,7 @@ p {
 	font-size: 16px;
 }
 
-input [type=button], [type="button"] {
+input [type=submit], [type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
