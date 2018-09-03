@@ -26,6 +26,60 @@ input [type=submit], [type="submit"] {
 	appearance: none;
 }
 
+.form_block {
+	margin-bottom: 15px;
+}
+
+.form_styles {
+	font-size: 14px;
+	background-color: #FFFFFF;
+	color: #4c4c4c;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0px;
+	width: 100%;
+}
+
+.input_title {
+	display: inline-block;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.input_form {
+	width: 100%;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.w-inline {
+	display: inline;
+}
+
+#login_button {
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 15px;
+	background: hsl(2.4,80.6%,48.6%);
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+#login_button:hover {
+	background: hsla(2.4,80.6%,48.6%,0.80);
+}
+
+
+
+
+
 .signin_form {
 	position: relative;
 	margin: 0 auto;
@@ -40,20 +94,9 @@ input [type=submit], [type="submit"] {
 
 .signin_form h3 {
 	text-align: center;
-	font-size: 28px;
-	margin-bottom: 30px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
-
-.signin_form input {
-	font-size: 16px;
-	color: #7b7b7b;
-	width: 100%;
-	padding: 10px;
-	margin: 5px 0 15px 0;
-	border: 1px solid #d0d8e0;
-	border-radius: 2px;
-}
-
 
 .signin_form_error {
 	position: relative;
@@ -65,12 +108,6 @@ input [type=submit], [type="submit"] {
 	min-width: 335px;
 	min-height: 530px;
 	padding: 30px 15px;
-}
-
-.signin_form_error h3 {
-	text-align: center;
-	font-size: 28px;
-	margin-bottom: 30px;
 }
 
 .signin_form_error input {
@@ -120,14 +157,6 @@ input [type=submit], [type="submit"] {
 }
 
 #signup {
-	float: right;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.icon_right {
 	float: right;
 }
 
