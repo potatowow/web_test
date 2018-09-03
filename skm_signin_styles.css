@@ -17,13 +17,36 @@ body {
 }
 
 p {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 input [type=submit], [type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+}
+
+input::-webkit-input-placeholder { color:#8c8c8c;}
+input:-moz-placeholder { color:#8c8c8c;}
+input::-moz-placeholder { color:#8c8c8c;}
+input:-ms-input-placeholder { color:#8c8c8c;}
+
+.signin_form {
+	position: relative;
+	margin: 0 auto;
+	color: #20232b;
+	background: #f8f8f8;
+	width: 100%;
+	height: 100%;
+	min-width: 335px;
+	min-height: 530px;
+	padding: 30px 15px;
+}
+
+.signin_form h3 {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 .form_block {
@@ -74,28 +97,6 @@ input [type=submit], [type="submit"] {
 
 #login_button:hover {
 	background: hsla(2.4,80.6%,48.6%,0.80);
-}
-
-
-
-
-
-.signin_form {
-	position: relative;
-	margin: 0 auto;
-	color: #20232b;
-	background: #f8f8f8;
-	width: 100%;
-	height: 100%;
-	min-width: 335px;
-	min-height: 530px;
-	padding: 30px 15px;
-}
-
-.signin_form h3 {
-	text-align: center;
-	font-size: 18px;
-	margin-bottom: 20px;
 }
 
 .signin_form_error {
@@ -179,6 +180,9 @@ input [type=submit], [type="submit"] {
 		max-width: 778px;
 	}
 
+	.signin_form h3 {
+		font-size: 24px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
